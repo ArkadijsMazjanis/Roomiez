@@ -1,0 +1,133 @@
+
+
+
+.mainPage{
+    display: flex;
+    justify-content:center;
+}
+.header{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-top: 50px;
+    width:1300px;
+    height: 100px;
+    background-color: #260224;
+    border-radius: 25px;
+
+}
+.headerButton{
+    width: 205px;
+    height: 70px;
+    border-radius: 25px;
+    background-color: #593F59;
+    color: white;
+    font-size: 250%;
+    font-style: 'Open Sans';
+    
+}
+.headerButton:hover{
+    background-color: #A5BF45;
+}
+.InfoBlockDisplay{
+    margin-top: 25px;
+    display: flex;
+    justify-content:center;  
+    
+}
+.mainStatisticDisplay{
+    display: flex;
+    justify-content:center;
+    flex-direction:column;
+    width: 1300px;
+    height: 650px;
+    background-color:white;
+    border-radius: 25px;
+}
+.textArea{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    height: 125px;
+    width: 1300px;
+    background-color: white;
+    font-size: 250%;
+    font-style: 'Open Sans';
+
+}
+.toDoText{
+    margin-left: 40px;
+}
+.shoppingLisText{
+    margin-left: 50px;
+}
+.spendingsText{
+    margin-left: 25px;
+}
+.sharedListText{
+    margin-left: 25px;
+}
+.infoArea{
+    display: flex;
+    justify-content:center;
+    height: 400px;
+    width: 1300px;
+    background-color:white;
+}
+
+.toDotext{
+    font-family: 'Open Sans';
+    font-size: 250%;
+}
+.infoBlock1{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 300px;
+    height: 400px;
+    background-color: #D0D98B;
+    border-radius: 25px;
+}
+.infoBlock2{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 300px;
+    height: 400px;
+    background-color: #D0D98B;
+    border-radius: 25px;
+}.infoBlock3{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 300px;
+    height: 400px;
+    background-color: #D0D98B;
+    border-radius: 25px;
+}.infoBlock4{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 300px;
+    height: 400px;
+    background-color: #D0D98B;
+    border-radius: 25px;
+}
+.addTaskIcon{
+    display: flex;
+    justify-content:left;
+    align-items:center;
+    height: 125px;
+    width: 1270px;
+    background-color: white;
+    padding-left: 30px;
+}
+.dot{
+    height: 70px;
+    width: 70px;
+    background-color: #A5BF45;
+    border-radius: 50%;
+    display: inline-block;
+    
+}
+.material-icons{
+    padding-left: 11px;
+    padding-top: 11px;
+    font-size: 48px;
+}
