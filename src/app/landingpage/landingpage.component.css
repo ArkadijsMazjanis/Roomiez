@@ -1,0 +1,143 @@
+.landingPageContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.landingPageHeroImage{
+    width: 50em;
+    height: 50em;
+}
+.landingPageTextButtons{
+    width:50em;
+}
+
+.landingPageButtons{
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 25em;
+}
+.btnRegister{
+    margin-top: 2em;
+    margin-right: 1em;
+    width: 8em;
+    height: 2.5em;
+    background-color: white;
+    border-radius: 15px;
+    border-color: #B2C734;
+    border-style: solid;
+    font-family:Quicksand;
+    font-weight: bold;
+}
+.btnRegister:hover{
+    background-color: #B2C734;
+    cursor: grab;
+}
+.btnLogin{
+    margin-top: 2em;
+    width: 5em;
+    height: 2.5em;
+    background-color: #B2C734;
+    border-radius: 15px;
+    border-color: #B2C734;
+    border-style: solid;
+    font-family:Quicksand;
+    font-weight: bold;
+}
+.btnLogin:hover{
+    background-color: white;
+    cursor: grab;
+}
+.landingPageText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-top: 13em;
+}
+.text1{
+    font-family:Quicksand;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #260224;
+}
+.landingPageTexttwo{
+    margin-top: 3em;
+}
+.material-icons{
+    color: #B2C734;
+    font-size: 36px;
+}
+.text2{
+    font-family:Quicksand;
+    font-size: 2em;
+}
+.landingPageButtonstwo{
+    display: flex;
+    justify-content:center;
+    margin-top: 5em;
+    margin-left: 5em;
+}
+.landingPageImage{
+    margin-top: 5em;
+    display: flex;
+    justify-content:center;
+    background-color: #FAFFD8;
+    height: 39em;
+    width: 45em;
+    border-radius: 75px;
+}
+.btnJoin{
+    border-style: solid;
+    font-family:Quicksand;
+    font-weight: bold;
+    width: 4em;
+    height: 2em;
+    border-style: solid;
+    border-radius: 15px;
+    margin-right: 2em;
+    font-size: 30px;
+    background-color: #7D267D;
+    color: white;
+}
+.btnJoin:hover{
+    background-color: white;
+    color: #7D267D;
+    cursor: grab;
+}
+.btnLearnmore{
+    border-style: solid;
+    font-family:Quicksand;
+    font-weight: bolder;
+    /* width: 10em;
+    height: 2em; */
+    border-style: solid;
+    border-radius: 20px;
+    margin-right: 2em;
+    font-size: 30px;
+    background-color: White;
+    color: #7D267D;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.btnLearnmore:hover{
+    background-color: #7D267D;
+    color: white;
+    cursor: grab;
+}
+.iAlreadyHaveAnAccount{
+    display: flex;
+    justify-content:center;
+  
+}
+.iAlreadyHaveAnAccountButton{
+    margin-top: 3em;
+    border:none;
+    font-family:Quicksand;
+    background-color: White;
+    color: #7D267D;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.iAlreadyHaveAnAccountButton:hover{
+    cursor: grab;
+}
