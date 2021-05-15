@@ -12,4 +12,8 @@ export class LandingpageComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
+  btnClick= function () {
+    this.router.navigateByUrl('/dashbord');
+};
 }

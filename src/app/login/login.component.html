@@ -1,6 +1,31 @@
-<form (submit)="loginUser($event)">
-    <input type="text" ng-model="inputText" palceholder='Email' >
-    <input type="text" palceholder="Password">
-    <input type="submit" value="Login">
-</form>
 
+<div class="loginPageHeader">
+    <button class="btnRegister" [routerLink]="['/register']" >Register</button>
+</div>
+<div class="loginPageContent">
+    <div class="loginPageText">
+        <span>Log in to acces your groups</span>
+    </div>
+    <div class="loadingPageInput">
+        <form>
+        <div class="loginPageEmail">
+            <span class="material-icons">mail</span>
+            <input type="text" class="inputEmail" placeholder="Email" ><br>
+        </div>
+        <div class="loginPagePassword">
+            <span class="material-icons">lock</span>
+            <input type="text" class="inputPassword" placeholder="Password">
+        </div>
+        </form>
+    </div>
+    <div class="loginPageButtontwo">
+        <button class="btnLoginTwo" [routerLink]="['/dashboard']" >Log in</button>
+    </div>
+</div>
+<div class="loginPageFooter">
+    <span class="loginPageFooterText"> About us </span>
+    <span class="loginPageFooterText"> Contact us </span>
+    <span class="loginPageFooterText">Privacy policy </span>
+    <span class="loginPageFooterText"> Terms of service </span>
+    <span class="loginPageFooterText"> FEQ </span>
+</div>

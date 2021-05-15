@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-login',
@@ -12,8 +14,7 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  loginUser(event) {
-    
-    console.log(event)
-  }
+  btnClick= function () {
+    this.router.navigateByUrl('/dashbord');
+};
 }

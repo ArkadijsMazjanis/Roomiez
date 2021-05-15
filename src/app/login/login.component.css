@@ -1,0 +1,104 @@
+.loginPageContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+   
+}
+.loginPageHeader{
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 15em;
+}
+.btnRegister{
+    margin-top: 2em;
+    margin-right: 1em;
+    width: 8em;
+    height: 2.5em;
+    background-color: white;
+    border-radius: 15px;
+    border-color: #B2C734;
+    border-style: solid;
+    font-family:Quicksand;
+    font-weight: bold;
+}
+.btnRegister:hover{
+    cursor: grab;
+    background-color: #B2C734;
+}
+.loginPageText{
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-family:Quicksand;
+    font-weight: bolder;
+    font-size: 2.5em;
+    color: #260224;
+}
+.loadingPageInput{
+    margin-top: 3em;
+    
+}
+.loginPageEmail{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 15px;
+}
+.loginPagePassword{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.material-icons{
+    color: #560556;
+    font-size: 36px;
+    
+}
+.inputEmail{
+    font-size: 24px;
+    border-radius: 15px;
+    border-color: #560556;
+    padding-left: 15px;
+    margin-left: 15px;
+}
+.inputPassword{
+    font-size: 24px;
+    border-radius: 15px;
+    border-color: #560556;
+    padding-left: 15px;
+    margin-left: 15px;
+}
+.loginPageButtontwo{
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.btnLoginTwo{
+    width:14em;
+    height: 2em;
+    border-radius: 7px;
+    border-color: #7D267D;
+    font-family:Quicksand;
+    font-weight: bolder;
+    font-size: 24px;
+    color: white;
+    background-color: #7D267D;
+}
+.btnLoginTwo:hover{
+    cursor: grab;
+    background-color: #B2C734;
+}
+.loginPageFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20em;
+    font-family:Quicksand;
+    font-size: 12px;
+}
+.loginPageFooterText{
+    margin-left: 20px;
+}

@@ -1,6 +1,6 @@
  <div class="landingPageButtons">
-            <button class="btnRegister">Register</button>
-            <button class="btnLogin">Login</button>
+            <button class="btnRegister" [routerLink]="['./register']">Register</button>
+            <button class="btnLogin" [routerLink]="['./login']" >Login</button>
         </div>
 <div class="landingPageContent">
     <div class="landingPageImage">
@@ -16,7 +16,7 @@
             </div>
         </div>
         <div class="landingPageButtonstwo">
-            <button class="btnJoin">Join</button>
+            <button class="btnJoin" [routerLink]="['./login']" >Join</button>
             <button class="btnLearnmore">Learn more</button>
         </div>
         <div class="iAlreadyHaveAnAccount">
