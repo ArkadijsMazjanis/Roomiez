@@ -15,7 +15,9 @@ import { RegistartionComponent } from './registartion/registartion.component';
 const appRoutes: Routes = [
   { path: '', component: LandingpageComponent },
   { path: 'login', component: LoginComponent },
+  { path: 'login', component: DashboardComponent },
   { path: 'register', component: RegistartionComponent },
+  { path: 'register', component: LoginComponent },
   { path: 'dashboard', component: DashboardComponent },
  
 ];
@@ -26,7 +28,8 @@ const appRoutes: Routes = [
     DashboardComponent,
     LoginComponent,
     AdminComponent,
-    LandingpageComponent
+    LandingpageComponent,
+    RegistartionComponent
   ],
   imports: [
     BrowserModule,

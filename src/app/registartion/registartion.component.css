@@ -1,0 +1,170 @@
+.registerPageHeader{
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 25em;
+}
+.btnLoginRegisterPage{
+    margin-top: 2em;
+    margin-right: 1em;
+    width: 8em;
+    height: 2.5em;
+    background-color: white;
+    border-radius: 15px;
+    border-color: #B2C734;
+    border-style: solid;
+    font-family:Quicksand;
+    font-weight: bold;
+}
+.btnLoginRegisterPage:hover{
+    background-color: #B2C734;
+    cursor: grab;
+}
+.registerPageContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+   
+}
+.registerPageText{
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-family:Quicksand;
+    font-weight: bolder;
+    font-size: 2.5em;
+    color: #260224;
+}
+.registerPageInput{
+    margin-top: 3em;
+    
+}
+.registerPageEmail{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 15px;
+}
+.registerPagePassword{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 15px;
+}
+.registerPageRepeatPassword{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 15px;
+    margin-left: 2.5em;
+}
+.registerPagePerson{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 15px;
+
+}
+.checkboxs{
+   margin-bottom: 3em;
+}
+.material-icons{
+    color: #560556;
+    font-size: 36px;
+    
+}
+.inputEmailRegisterPage{
+    font-size: 24px;
+    border-radius: 15px;
+    border-color: #560556;
+    padding-left: 15px;
+    margin-left: 15px;
+}
+.inputPasswordRegisterPage{
+    font-size: 24px;
+    border-radius: 15px;
+    border-color: #560556;
+    padding-left: 15px;
+    margin-left: 15px;
+}
+.inputRepeatPasswordRegisterPage{
+    font-size: 24px;
+    border-radius: 15px;
+    border-color: #560556;
+    padding-left: 15px;
+    margin-left: 15px;
+
+}
+.inputPersonRegisterPage{
+    font-size: 24px;
+    border-radius: 15px;
+    border-color: #560556;
+    padding-left: 15px;
+    margin-left: 15px;
+}
+.checkBoxs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-size: 16px;
+    border-radius: 15px;
+    border-color: #560556;
+    margin-bottom: 2em;
+}
+.checkBoxFirst{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 2em;
+    margin-right: 9em;
+}
+.checkBoxOne{
+    height: 20px;
+    width: 20px;
+    margin-right: 2em;
+    
+}
+.checkBoxSecond{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-right: 5.8em;
+}
+.checkboxTwo{
+    height: 20px;
+    width: 20px;
+    margin-right: 2em;
+}
+.btnRegister{
+    width:14em;
+    height: 2em;
+    border-radius: 7px;
+    border-color: #7D267D;
+    font-family:Quicksand;
+    font-weight: bolder;
+    font-size: 24px;
+    color: white;
+    background-color: #7D267D;
+    margin-bottom: 2em;
+}
+.btnRegister:hover{
+    cursor: grab;
+    background-color: #B2C734;
+}
+.signUpWithGoogle{
+    margin-bottom: 2em;
+
+}
+.registerPageFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10em;
+    font-family:Quicksand;
+    font-size: 12px;
+}
+.loginPageFooterText{
+    margin-left: 20px;
+}

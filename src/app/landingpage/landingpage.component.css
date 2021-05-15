@@ -11,7 +11,7 @@
     width:50em;
 }
 
-.landingPageButtons{
+.landingPageHeader{
     display: flex;
     justify-content:flex-end;
     margin-right: 25em;
