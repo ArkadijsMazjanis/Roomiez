@@ -1,4 +1,5 @@
 .sidebarContent{
+    position: absolute;
     display: flex;
     flex-direction:column;
     align-items: center;
@@ -8,6 +9,7 @@
     background-color:#560556;
     padding-top: 1em;
     padding-bottom: 1em;
+    margin-top: -1.5em;
 
 }
 .sidebarContentStart{
@@ -27,7 +29,6 @@
     background-color: #7D267D;
     border-radius: 10px;
     color: white;
-    margin-top:3em;
     border-style: solid;
     width: 3em;
     height: 3em;
