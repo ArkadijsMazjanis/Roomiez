@@ -90,7 +90,8 @@
 }
 .btnLoginTwo:hover{
     cursor: grab;
-    background-color: #B2C734;
+    background-color: white;
+    color:#7D267D;
 }
 .loginPageFooter{
     display: flex;

@@ -1,5 +1,9 @@
 
 <router-outlet></router-outlet>,<app-header></app-header>,<app-sidebar></app-sidebar>,
 <div class="dashboardContent">
-<p>where is  this</p>
+    <div class="myTasks">My Tasks</div>
+    <div class="itemsToBuy">Items To Buy</div>
+    <div class="goToTasks>">
+        <button class="switchToTasksButton" [routerLink]="['/taskspage']">Some Tasks</button>
+    </div>
 </div>

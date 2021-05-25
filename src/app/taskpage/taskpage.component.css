@@ -1,0 +1,32 @@
+.tasksContent{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:flex-end;
+    background-color: white;
+    height: 57em;
+    margin-top: 4em;
+    margin-left: 10em;
+    margin-right: 5em;
+
+}
+.addNewTasksListBtn{
+    margin-top: 3em;
+    width: 25em;
+    background-color: transparent;
+    border-color: #7D267D;
+    border-radius: 20px; 
+}
+.addNewTasksListBtn:hover{
+    cursor: grab;
+    background-color: lightgrey;
+}
+.material-icons{
+    font-size: 60px;
+    color: #7D267D;
+}
+.addNewTasksListText{
+    font-size: 40px;
+    color: #7D267D;
+    font-family:Quicksand;
+    font-weight: bold;
+}

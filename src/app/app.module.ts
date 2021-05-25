@@ -13,7 +13,11 @@ import { RegistartionComponent } from './registartion/registartion.component';
 import { SidebarComponent } from './shared/components/sidebar/sidebar.component';
 import { HeaderComponent } from './shared/components/header/header.component';
 import { SharedModule } from './shared/components/shared.module';
-
+import { TasksComponent } from './tasks/tasks.component';
+import { ListComponent } from './list/list.component';
+import {MatListModule} from '@angular/material/list';
+import { TasklistComponent } from './shared/components/tasklist/tasklist.component';
+import { TaskpageComponent } from './taskpage/taskpage.component'; 
 
 
 const appRoutes: Routes = [
@@ -27,6 +31,8 @@ const appRoutes: Routes = [
     //   { path: '', component: SidebarComponent },
     //   { path: '', component: HeaderComponent }     
     },
+  { path: 'taskspage', component: TaskpageComponent }, 
+  { path: 'tasklist', component: TasklistComponent },
 ];
 
 @NgModule({
@@ -37,6 +43,10 @@ const appRoutes: Routes = [
     AdminComponent,
     LandingpageComponent,
     RegistartionComponent,
+    TasksComponent,
+    ListComponent,
+    TasklistComponent,
+    TaskpageComponent,
     
   ],
   imports: [
@@ -46,6 +56,7 @@ const appRoutes: Routes = [
     SharedModule,
     RouterModule.forRoot(appRoutes),
     RouterModule.forChild(appRoutes),
+    MatListModule,
     
   ],
   exports: [

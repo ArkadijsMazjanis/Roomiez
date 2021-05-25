@@ -1,0 +1,11 @@
+<router-outlet></router-outlet>,<app-header></app-header>,<app-sidebar></app-sidebar>,
+
+<div class="tasksContent" >
+<tasklist  *nfIf="visible"></tasklist>
+    <button class="addNewTasksListBtn" (click)="addListClick" ><span class="material-icons">add</span> 
+        <div class="addNewTasksListText" >Make new list</div>
+    </button>
+    
+    
+</div>
+
